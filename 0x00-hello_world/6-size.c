@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Main function to print the size of various types.
- */
+* Main function to print the size of various types.
+*/
 int main(void)
 {
 printf("Size of a char: %zu byte(s)\n", sizeof(char));
