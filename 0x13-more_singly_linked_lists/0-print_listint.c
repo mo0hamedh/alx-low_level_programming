@@ -1,5 +1,7 @@
 #include "lists.h"
 /**
+ * print_listint - prints a linked lists
+ * @h: pointer to frist node 
  *return : size of list 
  */
 
