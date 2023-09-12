@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 #define MAXSIZE 1024
 /**
  * __exit - prints error messages and exits with exit number
@@ -11,6 +11,7 @@
 */
 int __exit(int error, char *str, int fd)
 {
+	
 	switch (error)
 	{
 		case 97:
