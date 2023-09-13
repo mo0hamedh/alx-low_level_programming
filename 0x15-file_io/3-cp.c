@@ -11,7 +11,7 @@
 */
 int __exit(int error, char *str, int fd)
 {
-	
+
 	switch (error)
 	{
 		case 97:
@@ -45,6 +45,7 @@ int main(int argc, char *argv[])
 	int read_stat, write_stat;
 	int close_in, close_out;
 	char buffer[MAXSIZE];
+
 	if (argc != 3)
 		__exit(97, NULL, 0);
 	file_in = open(argv[1], O_RDONLY);
