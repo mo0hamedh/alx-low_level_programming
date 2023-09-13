@@ -2,7 +2,7 @@
 /**
  * get_bit - return the value of a bit at an index in a decimal number
  * @n: inter number to search
- * @index: index of the bit 
+ * @index: index of the bit
  *
  * Return:the value of the bit
  */
