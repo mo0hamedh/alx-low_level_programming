@@ -17,11 +17,11 @@ int main(void)
 	i = rand() - RAND_MAX / 2;
 	dig = i % 10;
 
-	if (digit > 5)
+	if (dig > 5)
 		printf("Last digit of %i is %i and is greater than 5\n", i, dig);
-	else if (digit == 0)
+	else if (dig == 0)
 		printf("Last digit of %i is %i and is 0\n", i, dig);
-	else if (digit < 6 && digit != 0)
+	else if (dig < 6 && dig != 0)
 		printf("Last digit of %i is %i and is less than 6 and not 0\n", i, dig);
 	return (0);
 }
